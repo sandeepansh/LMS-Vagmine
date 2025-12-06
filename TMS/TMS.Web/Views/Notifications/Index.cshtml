@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Notification & Inbox";
+   
+}
+ 
+    <meta charset="utf-8" />
+    <title>Notification & Inbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 32px auto;
+        }
+
+        .header {
+            padding: 32px 24px 16px 24px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+            .header .icon {
+                color: #7058fa;
+                margin-right: 18px;
+                font-size: 1.7rem;
+            }
+
+        .breadcrumb {
+            color: #969faf;
+            font-size: 1rem;
+            margin-left: 4px;
+            margin-bottom: 12px;
+        }
+
+        .notif-panel {
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(100,100,100,0.10);
+            padding: 42px;
+        }
+
+        .notif-empty {
+            text-align: center;
+            padding: 48px 0;
+            color: #7ba5df;
+            font-size: 1.2rem;
+        }
+
+        .notif-list {
+            padding: 0;
+        }
+
+        .notif-item {
+            display: flex;
+            align-items: flex-start;
+            border-bottom: 1px solid #f4f6fb;
+            padding: 22px 0;
+        }
+
+            .notif-item:last-child {
+                border-bottom: none;
+            }
+
+        .notif-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #30b967;
+            margin-right: 18px;
+            margin-top: 8px;
+        }
+
+        .notif-content {
+            flex: 1;
+        }
+
+        .notif-title {
+            font-weight: 600;
+            font-size: 1.15rem;
+            color: #31363C;
+        }
+
+        .notif-message {
+            margin-top: 4px;
+            color: #5e5e7c;
+            font-size: 1rem;
+        }
+
+        .notif-time {
+            color: #b0b8ce;
+            font-size: 0.95rem;
+            margin-top: 2px;
+        }
+    </style>
+ 
+    <div class="container"> 
+        <div class="header">
+            <span class="icon">🔔</span> Notification & Inbox
+        </div>
+        <div class="notif-panel">
+            <div class="notif-list">
+                <div class="notif-item">
+                    <div class="notif-dot"></div>
+                    <div class="notif-content">
+                        <div class="notif-title">Class session rescheduled</div>
+                        <div class="notif-message">Your "Financial Management" session has been rescheduled to Friday, Jun 7 at 10:00 AM.</div>
+                        <div class="notif-time">5 mins ago</div>
+                    </div>
+                </div>
+                <div class="notif-item">
+                    <div class="notif-dot" style="background:#ffcb4a"></div>
+                    <div class="notif-content">
+                        <div class="notif-title">Assignment deadline approaching</div>
+                        <div class="notif-message">The deadline for "Quantitative Methods" assignment is tomorrow at 11:59 PM.</div>
+                        <div class="notif-time">2 hours ago</div>
+                    </div>
+                </div>
+                <div class="notif-item">
+                    <div class="notif-dot" style="background:#acbcff"></div>
+                    <div class="notif-content">
+                        <div class="notif-title">Session recording available</div>
+                        <div class="notif-message">Recording for "Marketing Management" Session 1 is now available to view.</div>
+                        <div class="notif-time">Yesterday</div>
+                    </div>
+                </div>
+                <div class="notif-item">
+                    <div class="notif-dot" style="background:#00aaff"></div>
+                    <div class="notif-content">
+                        <div class="notif-title">New announcement posted</div>
+                        <div class="notif-message">Please check the latest announcement in the "Managerial Economics" course.</div>
+                        <div class="notif-time">2 days ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 

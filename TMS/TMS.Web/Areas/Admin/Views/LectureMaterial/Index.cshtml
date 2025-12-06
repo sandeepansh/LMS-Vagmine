@@ -1,0 +1,245 @@
+﻿@using TMS
+@model IEnumerable<TMS.ViewModels.Masters.LectureMaterialViewModel>
+
+@{
+    ViewData["Title"] = "Course Content";
+    var controller = Convert.ToString(ViewContext.RouteData.Values["controller"]);
+    var permissions = ViewContext.HttpContext.GetFormPermissions();
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <a class="btn btn-primary" href="@Url.Action("Item")">Add Course Content</a>
+</div>
+
+<div class="table-responsive">
+    <table id="tbl" class="table table-bordered table-striped align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Course</th>
+                <th>Quadrant</th>
+                <th>Title</th>
+                <th>File</th>
+                <th>Status</th>
+                <th style="width: 150px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Course?.Name</td>
+                    <td>@item.CourseQuadrant?.Name</td>
+                    <td>@item.Title</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.FilePath))
+                        {
+                            <a href="javascript:void(0);"
+                               class="view-file-link text-primary text-decoration-underline"
+                               data-filepath="@item.FilePath"
+                               data-title="@item.Title">
+                                View
+                            </a>
+                        }
+                    </td>
+                    <td>
+                        <span class="badge @(item.IsActive ? "bg-success" : "bg-secondary")">
+                            @(item.IsActive ? "Active" : "Inactive")
+                        </span>
+                    </td>
+                    <td class="text-center">
+                        <!-- Edit -->
+                        <a asp-area="Admin"
+                           asp-action="Item"
+                           asp-controller="@controller"
+                           asp-route-iId="@EncriptorUtility.Encrypt(item.Id.ToString(), true)"
+                           data-bs-toggle="tooltip"
+                           title="@permissions.EditViewText">
+                            <i class="@permissions.EditViewIconClass fs-5"></i>
+                        </a>
+
+                        <!-- Schedule Meeting -->
+                        <a href="javascript:void(0);"
+                           class="text-primary ms-2 schedule-meeting-btn"
+                           data-courseid="@item.CourseId"
+                           data-quadrantid="@item.CourseQuadrantId"
+                           data-title="@item.Title"
+                           title="Schedule New Meeting">
+                            <i class="fa fa-calendar-plus fs-5"></i>
+                        </a>
+
+                        <!-- View Scheduled Meetings -->
+                        <a href="javascript:void(0);"
+                           class="text-success ms-2 view-meetings-btn"
+                           data-courseid="@item.CourseId"
+                           data-quadrantid="@item.CourseQuadrantId"
+                           title="View Scheduled Meetings">
+                            <i class="fa fa-eye fs-5"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- 📄 File Preview Modal -->
+<div class="modal fade" id="filePreviewModal" tabindex="-1" aria-labelledby="filePreviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="filePreviewLabel">File Preview</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center" id="filePreviewBody">
+                <!-- File preview content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 📅 Schedule Meeting Modal -->
+<div class="modal fade" id="scheduleMeetingModal" tabindex="-1" aria-labelledby="scheduleMeetingLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form id="scheduleMeetingForm" method="post" asp-action="ScheduleMeeting">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="scheduleMeetingLabel">Schedule Classroom</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="CourseId" name="courseId" />
+                    <input type="hidden" id="QuadrantId" name="quadrantId" />
+
+                    <div class="mb-3">
+                        <label for="MeetingTitle" class="form-label">Meeting Title</label>
+                        <input type="text" id="MeetingTitle" name="MeetingTitle" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="startTime" class="form-label">Start Time</label>
+                        <input type="datetime-local" id="startTime" name="startTime" class="form-control" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Duration" class="form-label">Duration</label>
+                        <select class="form-select" id="Duration" name="duration" required>
+                            <option value="30">30 Minutes</option>
+                            <option value="60" selected>60 Minutes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-circle"></i> Schedule
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- 👁 View Scheduled Meetings Modal -->
+<div class="modal fade" id="viewMeetingsModal" tabindex="-1" aria-labelledby="viewMeetingsLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="viewMeetingsLabel">Scheduled Classrooms</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="meetingsListContainer" class="mt-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="~/js/app.util.js"></script>
+
+    <script>
+        // ---------------- File Preview ----------------
+        $(document).on('click', '.view-file-link', function () {
+            const filePath = $(this).data('filepath');
+            const title = $(this).data('title') || 'Preview';
+            const ext = filePath.split('.').pop().toLowerCase();
+
+            $('#filePreviewLabel').text(title);
+            let content = '';
+
+            if (filePath.includes("youtu.be") || filePath.includes("youtube.com")) {
+                const videoIdMatch = filePath.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
+                const videoId = videoIdMatch ? videoIdMatch[1] : null;
+                if (videoId) {
+                    content = `<div id="youtube-player-container" class="ratio ratio-16x9"></div>`;
+                    $('#filePreviewBody').html(content);
+                    ytPlayer = new YT.Player('youtube-player-container', { videoId: videoId, width: '100%', height: '500', playerVars: { autoplay: 1, rel: 0 } });
+                } else {
+                    $('#filePreviewBody').html(`<p class="text-danger">Invalid YouTube URL.</p>`);
+                }
+            } else if (['mp4','webm','ogg'].includes(ext)) {
+                content = `<video id="previewVideo" width="100%" height="500" controls autoplay><source src="${filePath}" type="video/${ext}">Your browser does not support the video tag.</video>`;
+                $('#filePreviewBody').html(content);
+            } else if (ext === 'pdf') {
+                content = `<iframe src="${filePath}" width="100%" height="600px" style="border:none;"></iframe>`;
+                $('#filePreviewBody').html(content);
+            } else if (['jpg','jpeg','png','gif'].includes(ext)) {
+                content = `<img src="${filePath}" class="img-fluid rounded" alt="Image Preview"/>`;
+                $('#filePreviewBody').html(content);
+            } else if (['doc','docx','xls','xlsx','ppt','pptx'].includes(ext)) {
+                content = `<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(filePath)}" width="100%" height="600px" style="border:none;"></iframe>`;
+                $('#filePreviewBody').html(content);
+            } else {
+                content = `<p class="text-muted">Preview not available for this file type.</p><a href="${filePath}" target="_blank" class="btn btn-primary">Download / Open</a>`;
+                $('#filePreviewBody').html(content);
+            }
+
+            const modal = new bootstrap.Modal(document.getElementById('filePreviewModal'));
+            modal.show();
+        });
+
+        $('#filePreviewModal').on('hidden.bs.modal', function () { $('#filePreviewBody').html(''); });
+
+        // ---------------- Schedule Meeting ----------------
+        $(document).on('click', '.schedule-meeting-btn', function () {
+            $('#CourseId').val($(this).data('courseid'));
+            $('#QuadrantId').val($(this).data('quadrantid'));
+            $('#MeetingTitle').val($(this).data('title'));
+            hideLoader();
+            new bootstrap.Modal(document.getElementById('scheduleMeetingModal')).show();
+        });
+
+        // ---------------- View Meetings ----------------
+        $(document).on('click', '.view-meetings-btn', function () {
+            const courseId = $(this).data('courseid');
+            const quadrantId = $(this).data('quadrantid');
+            const url = '@Url.Action("GetMeetingDetails", "LectureMaterial")';
+            const $container = $('#meetingsListContainer');
+            $container.html('<p class="text-muted">Loading...</p>');
+
+            $.get(`${url}?courseId=${courseId}&quadrantId=${quadrantId}`, function (data) {
+                $container.empty();
+                if (data.hasMeeting && data.meetings.length > 0) {
+                    data.meetings.forEach(m => {
+                        $container.append(`
+                            <div class="border rounded p-3 mb-3 shadow-sm">
+                                <h6 class="mb-1">${m.title}</h6>
+                                <p class="mb-1">
+                                    <strong>Start:</strong> ${new Date(m.startTime).toLocaleString()}<br>
+                                    <strong>Duration:</strong> ${m.duration} mins
+                                </p>
+                                <a href="${m.joinUrl}" target="_blank" class="btn btn-sm btn-success">
+                                    <i class="fa fa-external-link-alt"></i> Join Meeting
+                                </a>
+                            </div>
+                        `);
+                    });
+                } else {
+                    $container.html(`<p class="text-muted">No scheduled Classrooms found for this course.</p>`);
+                }
+                new bootstrap.Modal(document.getElementById('viewMeetingsModal')).show();
+            }).fail(function () { $container.html('<p class="text-danger">Failed to load Classrooms.</p>'); });
+        });
+    </script>
+}

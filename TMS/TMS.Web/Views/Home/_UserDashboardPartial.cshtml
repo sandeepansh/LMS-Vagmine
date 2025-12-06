@@ -1,0 +1,32 @@
+﻿@model TMS.Web.Models.ViewModels.DashboardViewModel
+
+<div class="container mt-3">
+ 
+
+    <h4 class="mb-3">Course Category Summary</h4>
+    <div class="row">
+        @if (Model.CourseCategoryStats != null && Model.CourseCategoryStats.Any())
+        {
+            foreach (var item in Model.CourseCategoryStats)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-sm border-0 rounded-4" style="background-color: #f8f9fa;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@item.CategoryName</h5>
+                            <p class="card-text">
+                                <strong>Total Courses:</strong> @item.TotalCourses <br />
+                                <strong>Total Students Enrolled:</strong> @item.TotalStudents
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center">
+                <p>No course category data available.</p>
+            </div>
+        }
+    </div>
+</div>

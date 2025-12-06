@@ -1,0 +1,88 @@
+﻿@model IEnumerable<TMS.ViewModels.Masters.CourseMasterViewModel>
+@{
+    ViewData["Title"] = "Student Enrollment Management";
+}
+
+@* <h4>@ViewData["Title"]</h4> *@
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Code</th>
+            <th>Category</th>
+            <th>Semester</th>
+            <th>Duration (Months)</th>
+            <th>Enrolled Students</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <td>@course.Name</td>
+                <td>@course.CourseCode</td>
+                <td>@course.CourseCategory?.Name</td>
+                <td>@course.Semester?.Name</td>
+                <td>@course.CourseDurationMonths</td>
+                <td>
+                    @if (course.EnrolledStudents?.Any() == true)
+                    {
+                        @course.EnrolledStudents.Count();
+                        @*   <ul>
+                            @foreach (var s in course.EnrolledStudents)
+                            {
+                                <li>@s.Name</li>
+                            }
+                        </ul> *@
+                    }
+                    else
+                    {
+                        <span class="text-muted">No students enrolled</span>
+                    }
+                </td>
+                <td>
+                    <button class="btn btn-sm btn-primary manage-enrollment" data-id="@course.Id">Manage</button>
+                    <button class="btn btn-sm btn-info view-enrollment" data-id="@course.Id">View</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="enrollmentModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Manage Enrollment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="enrollmentModalBody">
+                <div class="text-center text-muted">Loading...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).on("click", ".manage-enrollment", function () {
+            const id = $(this).data("id");
+            $("#enrollmentModalBody").load(`/Admin/CourseEnrollment/ManageMapping?courseId=${id}`, function () {
+                $("#enrollmentModal").modal("show");
+            });
+        });
+
+        $(document).on("click", ".view-enrollment", function () {
+            const id = $(this).data("id");
+            $("#enrollmentModalBody").load(`/Admin/CourseEnrollment/ViewMapping?courseId=${id}`, function () {
+                $("#enrollmentModal").modal("show");
+            });
+        });
+    </script>
+
+
+}

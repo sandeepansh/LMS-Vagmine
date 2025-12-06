@@ -1,0 +1,173 @@
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CopyComplete
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.View.A64678CA.Up2Date
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.View.A64678CA.Up2Date
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.View.A64678CA.Up2Date
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.deps.json
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.ViewModels.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Common.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\bin\Debug\net6.0\TMS.Models.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.AssemblyReference.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfoInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.AssemblyInfo.cs
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.csproj.CoreCompileInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.View.A64678CA.Up2Date
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\refint\TMS.ViewModels.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\TMS.ViewModels.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.ViewModels\obj\Debug\net6.0\ref\TMS.ViewModels.dll

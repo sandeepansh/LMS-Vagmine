@@ -1,0 +1,55 @@
+﻿@model TMS.ViewModels.Academics.StudentQuizAttemptViewModel
+@{
+    ViewData["Title"] = "Attempt Quiz";
+}
+
+<div class="container mt-4">
+    <form asp-action="Submit" method="post">
+        <input type="hidden" name="QuizId" value="@Model.QuizId" />
+        <input type="hidden" name="StudentId" value="@Model.StudentId" />
+        <input type="hidden" name="CourseId" value="@Model.CourseId" />
+        <input type="hidden" name="CourseQuadrantId" value="@Model.CourseQuadrantId" />
+
+        @for (int i = 0; i < Model.Answers.Count; i++)
+        {
+            var q = Model.Answers[i];
+            <div class="card mb-3 shadow-sm">
+                <div class="card-header">
+                    <strong>Q@(i + 1).</strong> @q.QuestionText
+                </div>
+                <div class="card-body">
+                    @if (q.QuestionType == TMS.Models.Masters.QuestionType.Objective.ToString())
+                    {
+                        @for (int j = 0; j < q.Options.Count; j++)
+                        {
+                            var opt = q.Options[j];
+                            <div class="form-check">
+                                <input class="form-check-input"
+                                       type="radio"
+                                       name="Answers[@i].SelectedOptionId"
+                                       value="@opt.Id"
+                                       id="q@i-opt@j" />
+                                <label class="form-check-label" for="q@i-opt@j">
+                                    @opt.OptionText
+                                </label>
+                            </div>
+                        }
+                    }
+                    else 
+                    {
+                        <textarea class="form-control"
+                          name="Answers[@i].WrittenAnswer"
+                          rows="3"
+                          placeholder="Write your answer here..."></textarea>
+                    }
+
+                    <input type="hidden" name="Answers[@i].QuizQuestionId" value="@q.QuizQuestionId" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Submit Quiz</button>
+        }
+
+       
+    </form>
+</div>
+

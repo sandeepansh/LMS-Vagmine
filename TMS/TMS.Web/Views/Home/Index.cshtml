@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="divMasterListView">
+</div>
+<div class="row" id="divDashboardData">
+
+</div>
+
+@section Scripts{
+    <script src="@Url.Action("HomeIndex","LinkScript",new {area=""})" asp-append-version="true"></script>
+    <script src="~/js/Home-Index.js" asp-append-version="true"></script>
+}

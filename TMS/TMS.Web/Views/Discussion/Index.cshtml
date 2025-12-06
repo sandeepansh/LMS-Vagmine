@@ -1,0 +1,264 @@
+﻿@{
+    ViewBag.Title = "Discussion Forum";
+  
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Discussion Forum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+            max-width: 1400px;
+            margin: 30px auto;
+        }
+
+        .posts {
+            margin-top: 8px;
+        }
+
+        .post-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #dadbf31a;
+            padding: 28px 18px;
+            margin-bottom: 24px;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-details {
+            margin-left: 16px;
+        }
+
+        .user-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .user-badge {
+            background: #4c70fa;
+            color: #fff;
+            border-radius: 6px;
+            padding: 2px 6px;
+            font-size: 1rem;
+            margin-left: 8px;
+        }
+
+        .post-meta {
+            font-size: .93rem;
+            color: #767676;
+            margin-top: 2px;
+        }
+
+        .post-content {
+            margin: 6px 0 6px 0;
+            font-size: 0.75rem;
+        }
+
+        .post-actions {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-top: 8px;
+            color: #7e7e8f;
+        }
+
+            .post-actions span {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+        }
+
+        .sidebar-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #dadbf31a;
+            padding: 24px 20px;
+            margin-bottom: 6px;
+        }
+
+        .section-title {
+            font-size: 1.22rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        .semester-group-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .semester-group {
+            border: 1px solid #e9edfa;
+            border-radius: 10px;
+            padding: 16px 12px;
+            margin-bottom: 14px;
+        }
+
+        .semester-group-title {
+            font-size: 1.18rem;
+            font-weight: 500;
+        }
+
+        .group-tabs {
+            display: flex;
+            gap: 20px;
+            border-bottom: 2px solid #e9eaef;
+            margin-bottom: 14px;
+        }
+
+        .group-tab {
+            padding: 10px 4px 10px 4px;
+            font-size: 1rem;
+            color: #9192a5;
+            cursor: pointer;
+        }
+
+            .group-tab.selected {
+                color: #4b79fa;
+                border-bottom: 2.5px solid #4b79fa;
+                font-weight: bold;
+            }
+
+        .blog-list {
+            margin-top: 10px;
+        }
+
+        .blog-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .blog-thumb {
+            width: 68px;
+            height: 48px;
+            border-radius: 9px;
+            background: #eef0fa;
+        }
+
+        .blog-title {
+            font-size: 1.06rem;
+            font-weight: bold;
+        }
+
+        .blog-meta {
+            color: #9596a7;
+            font-size: .97rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-grid">
+        <div class="posts">
+            <!-- Post 1 -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="https://randomuser.me/api/portraits/men/12.jpg" class="user-img" alt="profile" />
+                    <div class="user-details">
+                        <div>
+                            <span class="user-name">Student@Univ</span>
+                            <span class="user-badge">✔</span>
+                        </div>
+                        <div class="post-meta">Added A New Post<br>3 weeks ago</div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Does exaggerate advertisement of a product that has beta tested can risked company's market value
+                </div>
+                <div class="post-actions">
+                    <span>👍 0 Likes</span>
+                    <span>💬 0 Comments</span>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="https://randomuser.me/api/portraits/men/15.jpg" class="user-img" alt="profile" />
+                    <div class="user-details">
+                        <div>
+                            <span class="user-name">Dr. TirthaRaj Sapkota</span>
+                            <span class="user-badge">✔</span>
+                        </div>
+                        <div class="post-meta">Added A New Post<br>3 months ago</div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Pls suggest few software testing techniques
+                </div>
+                <div class="post-actions">
+                    <span>👍 0 Likes</span>
+                    <span>💬 0 Comments</span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <!-- Semester Course-Wise Groups -->
+            <div class="sidebar-card">
+                <div class="section-title">Semester Course-Wise Groups</div>
+                <ul class="semester-group-list">
+                    <li class="semester-group">
+                        <div class="semester-group-title">Semester - 1 <span style="float:right;font-size:1.3em;">&#8964;</span></div>
+                    </li>
+                    <li class="semester-group">
+                        <div class="semester-group-title">Semester - 2 <span style="float:right;font-size:1.3em;">&#8964;</span></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Groups Tabs -->
+            <div class="sidebar-card">
+                <div class="group-tabs">
+                    <div class="group-tab">Your Groups</div>
+                    <div class="group-tab">Suggested Groups</div>
+                    <div class="group-tab selected">New Groups</div>
+                </div>
+                <div style="color:#909399; padding: 18px 3px 10px;">No groups found. Try a different search.</div>
+            </div>
+            <!-- Blog Section -->
+            <div class="sidebar-card">
+                <div class="section-title">New Blogs</div>
+                <div class="blog-list">
+                    <div class="blog-item">
+                        <div class="blog-thumb"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=cover&w=68&q=80" alt="blog" width="68" height="48" style="border-radius:9px;" /></div>
+                        <div>
+                            <div class="blog-title">Understanding The Theory Of Cost In Economics</div>
+                            <div class="blog-meta">11 months ago</div>
+                        </div>
+                    </div>
+                    <!-- Add more blog entries if needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

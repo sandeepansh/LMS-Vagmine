@@ -1,0 +1,53 @@
+﻿@model TMS.ViewModels.Account.UserPermissions
+@{
+    var hasAdmin = false;
+    if (ViewBag.HasAdmin != null)
+        hasAdmin = (bool)ViewBag.HasAdmin;
+    var iIndex = 0;
+}
+@if (hasAdmin)
+{
+    //<li class="sidebar-list">
+    //    <a asp-area="Admin" asp-controller="AdminHome" asp-action="Index" class="sidebar-link sidebar-title link-nav">
+    //        <i class="fas fa-tachometer-alt"></i>
+    //        <span style="font-weight:bold;">Admin Dashboard</span>
+    //    </a>
+    //</li>
+}
+@if (Model != null)
+{
+    @foreach (var form in Model.Forms.Where(t => !t.MenuId.HasValue).ToList())
+    {
+        <li class="sidebar-list">
+            <a asp-area="@form.Area" asp-controller="@form.Controller" asp-action="@form.Action">
+                <i class="@form.IconClass"></i>
+                <span style="font-weight:bold;">@form.Name</span>
+            </a>
+        </li>
+    }
+    @foreach (var mainMenu in Model.Menus)
+    {
+        var menuForms = Model?.Forms?.Where(t => t.MenuId.HasValue && t.MenuId.Value == mainMenu.Id)?.ToList();
+        if (menuForms != null && menuForms.Count > 0)
+        {
+            <li class="sidebar-list @(iIndex==0?"open":"")">
+                <a class="sidebar-link sidebar-title @(iIndex==0?"active":"")" href="#">
+                    <i class="@mainMenu.IconClass"></i>
+                    <span style="font-weight:bold;">@mainMenu.Name</span>                    
+                </a>
+                <ul class="sidebar-submenu">
+                    @foreach (var form in menuForms)
+                    {
+                        <li>
+                            <a asp-area="@form.Area" asp-controller="@form.Controller" asp-action="@form.Action">
+                                <i class="@form.IconClass"></i>
+                                <span>@form.Name</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+              </li>
+        }
+        iIndex += 1;
+    }
+}

@@ -1,0 +1,451 @@
+﻿@* @{
+    ViewBag.Title = "Virtual Classroom";
+  
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Virtual Classroom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafb;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 32px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(100,100,100,0.11);
+        }
+
+        .header {
+            padding: 32px 32px 16px 32px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+            .header .icon {
+                margin-right: 12px;
+                font-size: 1.7rem;
+            }
+
+        .tabs {
+            display: flex;
+            padding: 0 32px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .tab {
+            margin-right: 40px;
+            padding: 18px 0 10px 0;
+            cursor: pointer;
+            color: #656875;
+            font-size: 1.2em;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+        }
+
+            .tab.selected {
+                color: #5b4efb;
+                border-bottom: 3px solid #5b4efb;
+            }
+
+        .search-bar {
+            padding: 24px 32px 10px 32px;
+        }
+
+            .search-bar input {
+                width: 100%;
+                padding: 12px 16px;
+                border-radius: 8px;
+                border: 1px solid #ececec;
+                font-size: 1.1rem;
+            }
+
+        .session-list {
+            padding: 0 32px 32px 32px;
+        }
+
+        .session-card {
+            background: #fcfcfd;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px #d9e1fa21;
+            padding: 22px 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .session-info {
+            flex: 1;
+        }
+
+        .session-title {
+            font-size: 1.18rem;
+            font-weight: 600;
+            color: #31363C;
+        }
+
+        .session-details {
+            color: #807f8a;
+            font-size: 1rem;
+            margin-top: 4px;
+        }
+
+        .recording-btn {
+            background: #30b967;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 12px 30px;
+            transition: background 0.2s;
+        }
+
+            .recording-btn:hover {
+                background: #259654;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="icon">📹</span> Virtual Classroom
+        </div>
+        <div class="tabs">
+            <div class="tab selected" id="tab-upcoming" onclick="showTab('upcoming')">Upcoming Session</div>
+            <div class="tab" id="tab-past" onclick="showTab('past')">Past Session</div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search Past Sessions" onkeyup="filterSessions()" />
+        </div>
+        <div class="session-list" id="upcomingSessions">
+            <!-- Dummy Data for Upcoming (Empty State) -->
+            <div style="color:#888; font-size: 1.15em; padding: 40px; text-align: center;">
+                No upcoming sessions
+            </div>
+        </div>
+        <div class="session-list" id="pastSessions" style="display: none;">
+            <div class="session-card">
+                <div class="session-info">
+                    <div class="session-title">Marketing Management - Recorded Session 1</div>
+                    <div class="session-details">Thu, Jun 5 2025 &nbsp; | &nbsp; 10:30 AM</div>
+                </div>
+                <button class="recording-btn">Play Recording</button>
+            </div>
+            <div class="session-card">
+                <div class="session-info">
+                    <div class="session-title">Human Resource Management - Recorded Session 1</div>
+                    <div class="session-details">Wed, Jun 4 2025 &nbsp; | &nbsp; 11:30 AM</div>
+                </div>
+                <button class="recording-btn">Play Recording</button>
+            </div>
+            <div class="session-card">
+                <div class="session-info">
+                    <div class="session-title">Managerial Economics - Recorded Session 1</div>
+                    <div class="session-details">Tue, Jun 3 2025 &nbsp; | &nbsp; 10:30 AM</div>
+                </div>
+                <button class="recording-btn">Play Recording</button>
+            </div>
+            <div class="session-card">
+                <div class="session-info">
+                    <div class="session-title">Quantitative Methods - Recorded Session 1</div>
+                    <div class="session-details">Wed, Jun 4 2025 &nbsp; | &nbsp; 10:00 AM</div>
+                </div>
+                <button class="recording-btn">Play Recording</button>
+            </div>
+            <div class="session-card">
+                <div class="session-info">
+                    <div class="session-title">Financial Management - Recorded Session 1</div>
+                    <div class="session-details">Tue, Jun 3 2025 &nbsp; | &nbsp; 11:00 AM</div>
+                </div>
+                <button class="recording-btn">Play Recording</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showTab(tab) {
+            // Tab highlight switch
+            document.getElementById('tab-upcoming').classList.remove('selected');
+            document.getElementById('tab-past').classList.remove('selected');
+            if (tab === 'upcoming') {
+                document.getElementById('tab-upcoming').classList.add('selected');
+                document.getElementById('upcomingSessions').style.display = "block";
+                document.getElementById('pastSessions').style.display = "none";
+                document.getElementById('searchInput').placeholder = "Search Upcoming Sessions";
+            } else {
+                document.getElementById('tab-past').classList.add('selected');
+                document.getElementById('upcomingSessions').style.display = "none";
+                document.getElementById('pastSessions').style.display = "block";
+                document.getElementById('searchInput').placeholder = "Search Past Sessions";
+            }
+        }
+        function filterSessions() {
+            var input = document.getElementById('searchInput').value.toLowerCase();
+            var isPastTab = document.getElementById('tab-past').classList.contains('selected');
+            var container = isPastTab ? document.getElementById('pastSessions') : document.getElementById('upcomingSessions');
+            var cards = container.getElementsByClassName('session-card');
+            for (var i = 0; i < cards.length; i++) {
+                var title = cards[i].querySelector('.session-title').textContent.toLowerCase();
+                if (title.includes(input)) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+ *@
+
+@model TMS.ViewModels.Academics.VirtualClassroomViewModel
+@{
+    ViewBag.Title = "Virtual Classroom";
+    Layout = "_Layout"; // remove or change if you use a different layout
+}
+
+<style>
+    /* keep your design; moved inline for convenience */
+    .vc-container {
+        max-width: 1000px;
+        margin: 32px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(100,100,100,0.11);
+        padding-bottom: 24px;
+    }
+
+    .vc-header {
+        padding: 32px;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333;
+        display: flex;
+        align-items: center;
+    }
+
+        .vc-header .icon {
+            margin-right: 12px;
+            font-size: 1.7rem;
+        }
+
+    .vc-tabs {
+        display: flex;
+        padding: 0 32px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .vc-tab {
+        margin-right: 40px;
+        padding: 18px 0 10px;
+        cursor: pointer;
+        color: #656875;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-bottom: 2px solid transparent;
+    }
+
+        .vc-tab.selected {
+            color: #5b4efb;
+            border-bottom: 3px solid #5b4efb;
+        }
+
+    .vc-search {
+        padding: 24px 32px 10px 32px;
+    }
+
+        .vc-search input {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #ececec;
+            font-size: 1.05rem;
+        }
+
+    .vc-session-list {
+        padding: 0 32px 32px 32px;
+    }
+
+    .vc-session-card {
+        background: #fcfcfd;
+        border-radius: 10px;
+        box-shadow: 0 1px 3px #d9e1fa21;
+        padding: 22px 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+
+    .vc-session-info {
+        flex: 1;
+    }
+
+    .vc-session-title {
+        font-size: 1.18rem;
+        font-weight: 600;
+        color: #31363C;
+    }
+
+    .vc-session-details {
+        color: #807f8a;
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+
+    .vc-action-btn {
+        background: #30b967;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .vc-action-btn.disabled {
+            background: #b6d7bd;
+            cursor: not-allowed;
+        }
+
+    .vc-empty {
+        color: #888;
+        font-size: 1.15em;
+        padding: 40px;
+        text-align: center;
+    }
+</style>
+
+<div class="vc-container">
+    <div class="vc-header">
+        <span class="icon">📹</span>
+        Virtual Classroom
+    </div>
+
+    <div class="vc-tabs">
+        <div id="tab-upcoming" class="vc-tab selected" onclick="showTab('upcoming')">Upcoming Session (@Model.UpcomingSessions?.Count)</div>
+        <div id="tab-past" class="vc-tab" onclick="showTab('past')">Past Session (@Model.PastSessions?.Count)</div>
+    </div>
+
+    <div class="vc-search">
+        <input type="text" id="searchInput" placeholder="Search Sessions" onkeyup="filterSessions()" />
+    </div>
+
+    <!-- Upcoming -->
+    <div id="upcomingSessions" class="vc-session-list">
+        @if (Model.UpcomingSessions != null && Model.UpcomingSessions.Any())
+        {
+            foreach (var s in Model.UpcomingSessions)
+            {
+                <div class="vc-session-card session-card">
+                    <div class="vc-session-info">
+                        <div class="vc-session-title">@Html.Raw(System.Net.WebUtility.HtmlEncode(s.MeetingTitle ?? s.MeetingTitle ?? "Untitled Session"))</div>
+                        <div class="vc-session-details">
+                            @(
+                                                (s.ScheduledAt == default(DateTime))
+                                                ? "Date / Time not set"
+                                                : s.ScheduledAt.ToLocalTime().ToString("ddd, MMM d yyyy | hh:mm tt")
+                                                )
+                    &nbsp; | &nbsp; @(!string.IsNullOrEmpty(s.CourseName) ? s.CourseName : $"Course {s.CourseId}")
+                </div>
+            </div>
+
+                    @* Join button (if meeting url present) *@
+            @if (!string.IsNullOrWhiteSpace(s.MeetingUrl))
+                    {
+                        <a href="@s.MeetingUrl" target="_blank" class="vc-action-btn">Join Now</a>
+                    }
+                    else
+                    {
+                        <button class="vc-action-btn disabled" disabled>No Join Link</button>
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <div class="vc-empty">No upcoming sessions</div>
+        }
+    </div>
+
+    <!-- Past -->
+    <div id="pastSessions" class="vc-session-list" style="display:none;">
+        @if (Model.PastSessions != null && Model.PastSessions.Any())
+        {
+            foreach (var s in Model.PastSessions)
+            {
+                <div class="vc-session-card session-card">
+                    <div class="vc-session-info">
+                        <div class="vc-session-title">@Html.Raw(System.Net.WebUtility.HtmlEncode(s.MeetingTitle ?? "Recorded Session"))</div>
+                        <div class="vc-session-details">
+                            @(
+                                                (s.ScheduledAt == default(DateTime))
+                                                ? "Date / Time not set"
+                                                : s.ScheduledAt.ToLocalTime().ToString("ddd, MMM d yyyy | hh:mm tt")
+                                                )
+                    &nbsp; | &nbsp; @(!string.IsNullOrEmpty(s.CourseName) ? s.CourseName : $"Course {s.CourseId}")
+                </div>
+            </div>
+
+                   </div>
+            }
+        }
+        else
+        {
+            <div class="vc-empty">No past sessions found</div>
+        }
+    </div>
+</div>
+@section Scripts {
+
+<script>
+    function showTab(tab) {
+        document.getElementById('tab-upcoming').classList.remove('selected');
+        document.getElementById('tab-past').classList.remove('selected');
+
+        if (tab === 'upcoming') {
+            document.getElementById('tab-upcoming').classList.add('selected');
+            document.getElementById('upcomingSessions').style.display = "block";
+            document.getElementById('pastSessions').style.display = "none";
+            document.getElementById('searchInput').placeholder = "Search Upcoming Sessions";
+        } else {
+            document.getElementById('tab-past').classList.add('selected');
+            document.getElementById('upcomingSessions').style.display = "none";
+            document.getElementById('pastSessions').style.display = "block";
+            document.getElementById('searchInput').placeholder = "Search Past Sessions";
+        }
+    }
+
+    function filterSessions() {
+        var input = document.getElementById('searchInput').value.toLowerCase();
+        var isPastTab = document.getElementById('tab-past').classList.contains('selected');
+        var container = isPastTab ? document.getElementById('pastSessions') : document.getElementById('upcomingSessions');
+        var cards = container.getElementsByClassName('session-card');
+
+        for (var i = 0; i < cards.length; i++) {
+            var titleEl = cards[i].querySelector('.vc-session-title');
+            if (!titleEl) continue;
+            var title = titleEl.textContent.toLowerCase();
+            if (title.includes(input)) {
+                cards[i].style.display = "";
+            } else {
+                cards[i].style.display = "none";
+            }
+        }
+    }
+</script>
+}

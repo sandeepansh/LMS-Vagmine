@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TMS.Repository",
+    "\\TMS.Web",
+    "\\TMS.Web\\Areas",
+    "\\TMS.Web\\Areas\\Admin",
+    "\\TMS.Web\\Areas\\Admin\\Views",
+    "\\TMS.Web\\Areas\\Admin\\Views\\Designation",
+    "\\TMS.Web\\Areas\\Admin\\Views\\Roles",
+    "\\TMS.Web\\Controllers",
+    "\\TMS.Web\\Models"
+  ],
+  "SelectedNode": "\\TMS.sln",
+  "PreviewInSolutionExplorer": false
+}

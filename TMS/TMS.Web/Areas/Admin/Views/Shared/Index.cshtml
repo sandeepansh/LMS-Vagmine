@@ -1,0 +1,90 @@
+﻿@{
+	var controller = Convert.ToString(ViewContext.RouteData.Values["controller"]);
+	var permissions = ViewContext.HttpContext.GetFormPermissions();
+}
+<input id="hdTitle" type="hidden" value="@ViewData["Title"]" />
+<div class="card glass" id="divIndexContainer">
+	@if (permissions.Add)
+	{
+			<div class="card-header py-1">
+			  <a class="btn btn-primary btn-sm float-end aAddNewItem">
+			   <i class="fas fa-plus me-1"></i>Add New
+			  </a>
+			</div>
+	}
+   <div class="card-body">
+     <div class="table-responsive ">
+       <table id="tblItemList" class="table table-striped nowrap"
+                data-ei="@(permissions.EditViewIconClass)"
+                data-et="@(permissions.EditViewText)" 
+                data-st="@(permissions.ScheduleViewText)" 
+                data-si="@(permissions.ScheduleViewIconClass)"
+                data-rt="@(permissions.RejectViewText)"
+                data-ri="@(permissions.RejectViewIconClass)"  
+				data-ai="@(permissions.ApprovalViewIconClass)"
+				data-at="@(permissions.ApprovalViewText)"
+				data-ni="@(permissions.NominationViewIcon)"
+				data-nt="@(permissions.NominationViewText)"
+				   data-nai="@(permissions.NominationApprovalViewIcon)"
+				   data-nat="@(permissions.NominationApprovalViewText)"
+				   data-nri="@(permissions.NominationRejectViewIcon)"
+				   data-nrt="@(permissions.NominationRejectViewText)"
+				   data-nnt="@(permissions.AdminNominationViewText)"
+				   data-nni="@(permissions.AdminNominationViewIcon)"
+				   data-tct="@(permissions.TrainingCancelText)"
+				   data-tci="@(permissions.TrainingCancelIcon)">
+				
+	
+       </table>
+     </div>
+   </div> 
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+		<div class="modal-dialog modal-lg" role="document">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+
+					<h5 class="modal-title" id="myModalLabel">Nomination Details</h5>
+
+					 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+						<span aria-hidden="true">&times;</span>
+
+					</button>
+
+				</div>
+
+				 <div class="modal-body">
+
+				</div>
+
+				    <div class="modal-footer">
+					</div>
+
+                </div>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+@section scripts{
+			<script src="@Url.Action("AdminGlobalMaster","LinkScript",new {area="",c=controller})" asp-append-version="true"></script> 
+			<script src="@Url.Action("AdminSchedule","LinkScript",new {area="",c=controller})" asp-append-version="true"></script> 
+			<script src="@Url.Action("AdminReject","LinkScript",new {area="",c=controller})" asp-append-version="true"></script> 
+			<script src="@Url.Action("AdminNominationRequest","LinkScript",new {area="",c=controller})" asp-append-version="true"></script> 
+			@* <script src="@Url.Action("AdminTrainingScheduleMaster","LinkScript",new{area="",c=controller})" asp-append-version="true"></script> *@
+			<partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml" />
+			<partial name="~/Views/Shared/_IndexCommonScriptsPartial.cshtml" />
+			<script src="~/js/masters/@(controller)-index.js" asp-append-version="true"></script> 
+}
+

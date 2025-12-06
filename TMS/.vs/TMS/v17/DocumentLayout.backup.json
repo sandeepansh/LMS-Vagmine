@@ -1,0 +1,779 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\managers\\implementations\\masters\\mastermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\managers\\implementations\\masters\\mastermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4542BF8F-C65E-42E5-BA33-A64AD8EAA877}|TMS.Common\\TMS.Common.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.common\\encriptorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4542BF8F-C65E-42E5-BA33-A64AD8EAA877}|TMS.Common\\TMS.Common.csproj|solutionrelative:tms.common\\encriptorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\user\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\user\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\managers\\implementations\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\managers\\implementations\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\managers\\implementations\\masters\\masterbasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\managers\\implementations\\masters\\masterbasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\views\\auth\\forgotpasswordunified.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\views\\auth\\forgotpasswordunified.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\managers\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\managers\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\automapperprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\automapperprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\masters\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\masters\\forgotpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\masters\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\masters\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\account\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\account\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\masters\\coursemasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\masters\\coursemasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\course\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\course\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\basemasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\basemasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\wwwroot\\js\\masters\\course-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\wwwroot\\js\\masters\\course-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\masters\\coursemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\masters\\coursemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\masters\\coursecategorymasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\masters\\coursecategorymasterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\coursecategory\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\coursecategory\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\coursecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\coursecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\shared\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\shared\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\wwwroot\\js\\masters\\coursecategory-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\wwwroot\\js\\masters\\coursecategory-index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\masters\\coursecategorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\masters\\coursecategorymaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\seeddata\\formmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\seeddata\\formmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.repository\\seeddata\\menumasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A860A362-EDE4-43AF-9E64-CFBE1C5B5017}|TMS.Repository\\TMS.Repository.csproj|solutionrelative:tms.repository\\seeddata\\menumasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\masters\\quizquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\masters\\quizquestionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\views\\facultyquizassessment\\_facultyquizassessmentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\views\\facultyquizassessment\\_facultyquizassessmentmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\courseenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\courseenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\masters\\quizmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\masters\\quizmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\quiz\\_questiontemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\quiz\\_questiontemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.models\\masters\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D5BE2E-C2F9-46ED-AA02-DDDEBA0224D3}|TMS.Models\\TMS.Models.csproj|solutionrelative:tms.models\\masters\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\quiz\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\quiz\\item.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\controllers\\lecturematerialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\controllers\\lecturematerialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.web\\areas\\admin\\views\\lecturematerial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E77B734D-0BED-491D-8EE1-E41DA1C1AF1A}|TMS.Web\\TMS.Web.csproj|solutionrelative:tms.web\\areas\\admin\\views\\lecturematerial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|c:\\project\\lms-silveroak\\lms\\tms\\tms.viewmodels\\masters\\lecturematerialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC4B2E4-6556-4887-BBAC-06439152AC87}|TMS.ViewModels\\TMS.ViewModels.csproj|solutionrelative:tms.viewmodels\\masters\\lecturematerialviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\User\\Item.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\User\\Item.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\User\\Item.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\User\\Item.cshtml",
+              "ViewState": "AgIAAC4AAACAmZmZmZkOwDcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T03:58:46.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAlwHYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:58:22.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "TMS.Web\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAACwAAACgZmZmZiYwwDYAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T03:12:51.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAccountManager.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\IAccountManager.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Managers\\IAccountManager.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\IAccountManager.cs",
+              "RelativeToolTip": "TMS.Repository\\Managers\\IAccountManager.cs",
+              "ViewState": "AgIAAA4AAACAmZmZmVkswBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:54:54.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TMS.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAtwMwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:31:22.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MasterBaseManager.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\Masters\\MasterBaseManager.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Managers\\Implementations\\Masters\\MasterBaseManager.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\Masters\\MasterBaseManager.cs",
+              "RelativeToolTip": "TMS.Repository\\Managers\\Implementations\\Masters\\MasterBaseManager.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAowHoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:56:45.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EncriptorUtility.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Common\\EncriptorUtility.cs",
+              "RelativeDocumentMoniker": "TMS.Common\\EncriptorUtility.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Common\\EncriptorUtility.cs",
+              "RelativeToolTip": "TMS.Common\\EncriptorUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:18:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterManager.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\Masters\\MasterManager.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Managers\\Implementations\\Masters\\MasterManager.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\Masters\\MasterManager.cs",
+              "RelativeToolTip": "TMS.Repository\\Managers\\Implementations\\Masters\\MasterManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAArwD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:20:14.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordUnified.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\Auth\\ForgotPasswordUnified.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Views\\Auth\\ForgotPasswordUnified.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\Auth\\ForgotPasswordUnified.cshtml",
+              "RelativeToolTip": "TMS.Web\\Views\\Auth\\ForgotPasswordUnified.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T03:05:07.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\AccountManager.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Managers\\Implementations\\AccountManager.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Managers\\Implementations\\AccountManager.cs",
+              "RelativeToolTip": "TMS.Repository\\Managers\\Implementations\\AccountManager.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAEwIAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:21:57.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251120031012_forgotpassword.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs",
+              "RelativeToolTip": "TMS.Repository\\Migrations\\20251120031012_forgotpassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:10:13.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\ApplicationDBContext.cs",
+              "RelativeToolTip": "TMS.Repository\\ApplicationDBContext.cs",
+              "ViewState": "AgIAABoAAAAgzczMzIwgwFcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:07:29.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AutoMapperProfileConfiguration.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\AutoMapperProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\AutoMapperProfileConfiguration.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\AutoMapperProfileConfiguration.cs",
+              "RelativeToolTip": "TMS.Repository\\AutoMapperProfileConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAZmZmZuYcwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:08:14.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "TMS.Repository\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAYwGEAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:08:49.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\Masters\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\Masters\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:37:39.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserMaster.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Account\\UserMaster.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Account\\UserMaster.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Account\\UserMaster.cs",
+              "RelativeToolTip": "TMS.Models\\Account\\UserMaster.cs",
+              "ViewState": "AgIAAAIAAACWZmZmZiYwwAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:36:28.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgotPassword.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\ForgotPassword.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Masters\\ForgotPassword.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\ForgotPassword.cs",
+              "RelativeToolTip": "TMS.Models\\Masters\\ForgotPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T02:35:18.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\CourseCategory\\Item.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\CourseCategory\\Item.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\CourseCategory\\Item.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\CourseCategory\\Item.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T16:44:39.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CourseCategoryMasterViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\CourseCategoryMasterViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\Masters\\CourseCategoryMasterViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\CourseCategoryMasterViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\Masters\\CourseCategoryMasterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:25:48.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Course\\Item.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\Course\\Item.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Course\\Item.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\Course\\Item.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T16:30:52.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:31:15.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Course-Index.js",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\wwwroot\\js\\Masters\\Course-Index.js",
+              "RelativeDocumentMoniker": "TMS.Web\\wwwroot\\js\\Masters\\Course-Index.js",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\wwwroot\\js\\Masters\\Course-Index.js",
+              "RelativeToolTip": "TMS.Web\\wwwroot\\js\\Masters\\Course-Index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-15T16:48:42.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseMasterViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\BaseMasterViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\BaseMasterViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\BaseMasterViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\BaseMasterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:11:47.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourseMasterViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\CourseMasterViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\Masters\\CourseMasterViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\CourseMasterViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\Masters\\CourseMasterViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:31:00.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CourseMaster.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\CourseMaster.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Masters\\CourseMaster.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\CourseMaster.cs",
+              "RelativeToolTip": "TMS.Models\\Masters\\CourseMaster.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:19:00.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251115172057_Coyrsedbchangesfields.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs",
+              "RelativeToolTip": "TMS.Repository\\Migrations\\20251115172057_Coyrsedbchangesfields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:20:57.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CourseCategoryController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseCategoryController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\CourseCategoryController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseCategoryController.cs",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\CourseCategoryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:24:19.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CourseCategory-Index.js",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\wwwroot\\js\\Masters\\CourseCategory-Index.js",
+              "RelativeDocumentMoniker": "TMS.Web\\wwwroot\\js\\Masters\\CourseCategory-Index.js",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\wwwroot\\js\\Masters\\CourseCategory-Index.js",
+              "RelativeToolTip": "TMS.Web\\wwwroot\\js\\Masters\\CourseCategory-Index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-15T16:35:16.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Shared\\Item.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\Shared\\Item.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Shared\\Item.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\Shared\\Item.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T16:42:30.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CourseCategoryMaster.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\CourseCategoryMaster.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Masters\\CourseCategoryMaster.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\CourseCategoryMaster.cs",
+              "RelativeToolTip": "TMS.Models\\Masters\\CourseCategoryMaster.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:27:46.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20251115163312_dbCoursecategoryChanges.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs",
+              "RelativeToolTip": "TMS.Repository\\Migrations\\20251115163312_dbCoursecategoryChanges.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:33:13.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FormMasterData.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\SeedData\\FormMasterData.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\SeedData\\FormMasterData.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\SeedData\\FormMasterData.cs",
+              "RelativeToolTip": "TMS.Repository\\SeedData\\FormMasterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:20:47.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MenuMasterData.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\SeedData\\MenuMasterData.cs",
+              "RelativeDocumentMoniker": "TMS.Repository\\SeedData\\MenuMasterData.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Repository\\SeedData\\MenuMasterData.cs",
+              "RelativeToolTip": "TMS.Repository\\SeedData\\MenuMasterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:20:43.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_FacultyQuizAssessmentModal.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\FacultyQuizAssessment\\_FacultyQuizAssessmentModal.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Views\\FacultyQuizAssessment\\_FacultyQuizAssessmentModal.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Views\\FacultyQuizAssessment\\_FacultyQuizAssessmentModal.cshtml",
+              "RelativeToolTip": "TMS.Web\\Views\\FacultyQuizAssessment\\_FacultyQuizAssessmentModal.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T15:42:52.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "TMS.Web\\appsettings.json",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\appsettings.json",
+              "RelativeToolTip": "TMS.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-09T05:42:51.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QuizQuestionViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\QuizQuestionViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\Masters\\QuizQuestionViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\QuizQuestionViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\Masters\\QuizQuestionViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:51:41.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CourseEnrollmentController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseEnrollmentController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\CourseEnrollmentController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\CourseEnrollmentController.cs",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\CourseEnrollmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T11:17:20.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Masters\\QuizQuestion.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\QuizQuestion.cs",
+              "RelativeToolTip": "TMS.Models\\Masters\\QuizQuestion.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBQwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:09:22.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "QuizMaster.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\QuizMaster.cs",
+              "RelativeDocumentMoniker": "TMS.Models\\Masters\\QuizMaster.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Models\\Masters\\QuizMaster.cs",
+              "RelativeToolTip": "TMS.Models\\Masters\\QuizMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:08:13.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Item.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Quiz\\Item.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\Quiz\\Item.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Quiz\\Item.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\Quiz\\Item.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswDsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T05:53:01.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_QuestionTemplate.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Quiz\\_QuestionTemplate.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\Quiz\\_QuestionTemplate.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\Quiz\\_QuestionTemplate.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\Quiz\\_QuestionTemplate.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-09T05:48:49.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:48:24.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LectureMaterialViewModel.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\LectureMaterialViewModel.cs",
+              "RelativeDocumentMoniker": "TMS.ViewModels\\Masters\\LectureMaterialViewModel.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.ViewModels\\Masters\\LectureMaterialViewModel.cs",
+              "RelativeToolTip": "TMS.ViewModels\\Masters\\LectureMaterialViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIBQwB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:36:10.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\LectureMaterial\\Index.cshtml",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Views\\LectureMaterial\\Index.cshtml",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Views\\LectureMaterial\\Index.cshtml",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Views\\LectureMaterial\\Index.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAiwNAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-08T21:28:55.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LectureMaterialController.cs",
+              "DocumentMoniker": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\LectureMaterialController.cs",
+              "RelativeDocumentMoniker": "TMS.Web\\Areas\\Admin\\Controllers\\LectureMaterialController.cs",
+              "ToolTip": "C:\\Project\\LMS-SilverOak\\LMS\\TMS\\TMS.Web\\Areas\\Admin\\Controllers\\LectureMaterialController.cs",
+              "RelativeToolTip": "TMS.Web\\Areas\\Admin\\Controllers\\LectureMaterialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T21:28:39.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

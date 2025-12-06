@@ -1,0 +1,132 @@
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+D:\OneDrive - Protiviti Member Firm\Projects\KNPC\Project\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\OneDrive - Protiviti Member Firm\Desktop\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\OneDrive - Protiviti Member Firm\Desktop\Manger,Supervisor\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103_Version_14.2.2\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103(3)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\anuj.kashyap\Downloads\TMS 20231103(27-02-2024)\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive-Personal\OneDrive\Project\SS\SU\LMS\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.deps.json
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\bin\Debug\net6.0\TMS.Common.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.AssemblyReference.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfoInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.AssemblyInfo.cs
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.csproj.CoreCompileInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\refint\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\TMS.Common.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Common\obj\Debug\net6.0\ref\TMS.Common.dll

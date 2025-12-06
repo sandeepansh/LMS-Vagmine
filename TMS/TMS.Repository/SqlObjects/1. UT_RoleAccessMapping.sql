@@ -1,0 +1,8 @@
+﻿IF NOT EXISTS (SELECT * FROM SYS.TABLE_TYPES WHERE NAME ='UT_RoleAccessMapping')
+CREATE TYPE UT_RoleAccessMapping AS TABLE 
+(
+	RoleId INT NOT NULL,
+	TypeId INT NOT NULL, 
+	SubTypeId INT NOT NULL
+)
+GO

@@ -1,0 +1,84 @@
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.deps.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.runtimeconfig.json
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.AssemblyReference.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfoInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfo.cs
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.CoreCompileInputs.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.CopyComplete
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\refint\TMS.Repository.dll
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.pdb
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.genruntimeconfig.cache
+C:\Users\mohit.kataria\Downloads\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\ref\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.runtimeconfig.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repo.CA608353.Up2Date
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\refint\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.genruntimeconfig.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\TMS 20231103\TMS\TMS.Repository\obj\Release\net6.0\ref\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.deps.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.runtimeconfig.json
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.AssemblyReference.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfoInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfo.cs
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.CoreCompileInputs.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repo.CA608353.Up2Date
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\refint\TMS.Repository.dll
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.pdb
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.genruntimeconfig.cache
+C:\Users\bhushan.sharma\OneDrive - Protiviti Member Firm\Documents\TMS\TMS 4\LMS\TMS\TMS.Repository\obj\Release\net6.0\ref\TMS.Repository.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.deps.json
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.runtimeconfig.json
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Repository.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Common.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.Models.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\bin\Release\net6.0\TMS.ViewModels.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.AssemblyReference.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfoInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.AssemblyInfo.cs
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.csproj.CoreCompileInputs.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repo.CA608353.Up2Date
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\refint\TMS.Repository.dll
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.pdb
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\TMS.Repository.genruntimeconfig.cache
+C:\Project\LMS-SilverOak\LMS\TMS\TMS.Repository\obj\Release\net6.0\ref\TMS.Repository.dll

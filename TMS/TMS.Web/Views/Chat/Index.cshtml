@@ -1,0 +1,240 @@
+﻿@{
+    ViewBag.Title = "Chat";
+  
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafb;
+            margin: 0;
+        }
+
+        .chat-wrap {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .chat-sidebar {
+            width: 350px;
+            background: #fff;
+            border-right: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 22px 12px 10px 18px;
+            font-size: 1.38rem;
+            font-weight: 500;
+            color: #222;
+        }
+
+        .search-bar {
+            padding: 0 14px 10px 14px;
+        }
+
+            .search-bar input {
+                width: 100%;
+                padding: 12px 16px;
+                border-radius: 8px;
+                border: 1px solid #ececec;
+                font-size: 1.1rem;
+            }
+
+        .recent-title {
+            font-size: 1.12rem;
+            color: #222;
+            padding: 8px 0 8px 18px;
+            font-weight: 500;
+        }
+
+        .recent-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .chat-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 10px 10px 18px;
+            border-bottom: 1px solid #f3f3fa;
+            cursor: pointer;
+        }
+
+            .chat-item:last-child {
+                border-bottom: none;
+            }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #edf3f9;
+            object-fit: cover;
+        }
+
+        .chat-info {
+            flex: 1;
+            margin-left: 13px;
+        }
+
+        .chat-user {
+            font-weight: bold;
+            font-size: 1.09rem;
+            color: #212236;
+        }
+
+        .chat-msg {
+            color: #888a96;
+            font-size: 1.04em;
+            margin-top: 2px;
+        }
+
+        .chat-meta {
+            text-align: right;
+            min-width: 64px;
+        }
+
+        .chat-time {
+            color: #a4a4af;
+            font-size: 0.97em;
+        }
+
+        .chat-online-dot {
+            width: 8px;
+            height: 8px;
+            background: #f37373;
+            display: inline-block;
+            border-radius: 50%;
+            margin-right: 4px;
+        }
+        /* Chat Main Area */
+        .chat-main {
+            flex: 1;
+            background: #fafafb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .connect-panel {
+            text-align: center;
+        }
+
+        .connect-imgs {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+            .connect-imgs img {
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                background: #ede7fe;
+            }
+
+        .connect-title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin: 28px 0 6px 0;
+            color: #1a1a1a;
+        }
+
+        .connect-msg {
+            color: #535357;
+            font-size: 1.12rem;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-wrap">
+        <div class="chat-sidebar">
+            <div class="sidebar-header">Chats</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for messages or users…">
+            </div>
+            <div class="recent-title">Recent Chats</div>
+            <div class="recent-list">
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Adm Online <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">hi</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">4 months ago</div>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/19.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Demo User <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">hi</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">4 months ago</div>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Student@Eankitb <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">hello</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">4 months ago</div>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/36.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Ugc Demo Faculty <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">hELLO</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">5 months ago</div>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Adm Online <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">No messages yet</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">5 months ago</div>
+                    </div>
+                </div>
+                <div class="chat-item">
+                    <img src="https://randomuser.me/api/portraits/men/27.jpg" class="avatar" alt="" />
+                    <div class="chat-info">
+                        <div class="chat-user">Student@Aaravy <span class="chat-online-dot"></span></div>
+                        <div class="chat-msg">hello</div>
+                    </div>
+                    <div class="chat-meta">
+                        <div class="chat-time">5 months ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-main">
+            <div class="connect-panel">
+                <div class="connect-imgs">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="">
+                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577907_1280.png" alt="">
+                </div>
+                <div class="connect-title">Let's Connect & Chat</div>
+                <div class="connect-msg">LET’S START A CONVERSATION. WHAT’S ON YOUR MIND?</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿@model TMS.Web.Models.LoginViewModel
+@{
+    Layout = "_LayoutEmpty";
+    ViewData["Title"] = "Login";
+}
+<div class="row mt-3 mb-3">
+    <div class="col-md-6 offset-md-3">
+        <form class="form theme-form" asp-action="Login" asp-controller="Auth" asp-area="" method="post">
+            <div class="card glass">
+                <div class="card-header">
+                    <h6 class="text-primary">Login</h6>
+                    <p class="mb-2 opacity-60">Enter your details to login</p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label"></label>
+                                <input asp-for="Email" class="form-control" placeholder="name@aaa.com">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3 position-relative">
+                                <label asp-for="Password" class="form-label">Password</label>
+
+                                <div class="input-group">
+                                    <input asp-for="Password" class="form-control" placeholder="*******" id="passwordInput">
+
+                                    <span class="input-group-text" style="cursor:pointer;" onclick="togglePassword()">
+                                        <i id="eyeIcon" class="fa fa-eye"></i>
+                                    </span>
+                                </div>
+
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3 m-t-15">
+                                <div class="form-check checkbox checkbox-primary mb-0">
+                                    <input asp-for="RememberMe" class="form-check-input">
+                                    <label asp-for="RememberMe" class="form-check-label nomandatory"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3 m-t-15">
+                                <div class="">
+                                   <a href="@Url.Action("ForgotPasswordFlow","Auth")">Forgot Password</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer text-center">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml" />
+    <script>
+        function togglePassword() {
+            const passInput = document.getElementById("passwordInput");
+            const eyeIcon = document.getElementById("eyeIcon");
+
+            if (passInput.type === "password") {
+                passInput.type = "text";
+                eyeIcon.classList.remove("fa-eye");
+                eyeIcon.classList.add("fa-eye-slash");
+            } else {
+                passInput.type = "password";
+                eyeIcon.classList.remove("fa-eye-slash");
+                eyeIcon.classList.add("fa-eye");
+            }
+        }
+    </script>
+
+}

@@ -1,0 +1,187 @@
+﻿@model List<TMS.ViewModels.Academics.CourseMaterialGroupedViewModel>
+ 
+
+<div class="container mt-3">
+    @foreach (var item in Model)
+    {
+        <div class="mb-5">
+            <h4 class="text-primary fw-bold">@item.Course.Name</h4>
+            <hr />
+
+            <!-- Accordion for Units -->
+            <div class="accordion" id="accordion-@item.Course.Id">
+                @{
+                    var unitIndex = 0;
+                }
+
+                @foreach (var unit in item.GroupedMaterials)
+                {
+                    var collapseId = $"collapse-{item.Course.Id}-{unitIndex}";
+                    var headingId = $"heading-{item.Course.Id}-{unitIndex}";
+                    bool isFirst = unitIndex == 0;
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="@headingId">
+                            <button class="accordion-button @(isFirst ? "" : "collapsed")"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#@collapseId"
+                                    aria-expanded="@(isFirst.ToString().ToLower())"
+                                    aria-controls="@collapseId">
+                                <i class="bi bi-journal-text me-2"></i> @unit.QuadrantName
+                            </button>
+                        </h2>
+
+                        <div id="@collapseId"
+                             class="accordion-collapse collapse @(isFirst ? "show" : "")"
+                             aria-labelledby="@headingId"
+                             data-bs-parent="#accordion-@item.Course.Id">
+                            <div class="accordion-body">
+                                @if(!unit.HasAttemptedQuiz)
+                                {
+                                    <div class="text-end mt-3">
+                                        <a href="@Url.Action("Attempt", "StudentQuiz", new { courseId = item.Course.Id, quadrantId = unit.QuadrantId })"
+                                           class="btn btn-sm btn-primary">
+                                            <i class="bi bi-question-circle"></i> Attempt Quiz
+                                        </a>
+                                    </div>
+                                }
+                               
+
+                                <div class="row">
+                                    @foreach (var mat in unit.Materials)
+                                    {
+                                        var ext = !string.IsNullOrEmpty(mat.FilePath)
+                                            ? System.IO.Path.GetExtension(mat.FilePath).ToLower()
+                                            : null;
+
+                                        string iconClass = ext switch
+                                        {
+                                            ".pdf" => "bi-file-earmark-pdf",
+                                            ".doc" or ".docx" => "bi-file-earmark-word",
+                                            ".xls" or ".xlsx" => "bi-file-earmark-excel",
+                                            ".ppt" or ".pptx" => "bi-file-earmark-ppt",
+                                            ".mp4" or ".webm" or ".ogg" => "bi-play-circle",
+                                            ".jpg" or ".jpeg" or ".png" or ".gif" => "bi-file-image",
+                                            _ => "bi-file-earmark"
+                                        };
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card h-100 shadow-sm" style="border-radius:10px;">
+                                                <div class="card-body text-center d-flex flex-column justify-content-between">
+                                                    <div class="mb-2">
+                                                        <i class="bi @iconClass fs-2 text-primary"></i>
+                                                    </div>
+                                                    <h6 class="fw-semibold">@mat.Title</h6>
+                                                    <p class="text-muted small">@mat.Description</p>
+
+                                                    @if (!string.IsNullOrEmpty(mat.FilePath))
+                                                    {
+                                                        <button class="btn btn-sm btn-outline-primary view-file-link"
+                                                                data-filepath="@Url.Content(mat.FilePath)"
+                                                                data-title="@mat.Title">
+                                                            <i class="bi bi-eye"></i> Preview
+                                                        </button>
+                                                    }
+                                                    else if (!string.IsNullOrEmpty(mat.ContentPath))
+                                                    {
+                                                        <button class="btn btn-sm btn-outline-success view-file-link"
+                                                                data-filepath="@mat.ContentPath"
+                                                                data-title="@mat.Title">
+                                                            <i class="bi bi-play-circle"></i> Watch
+                                                        </button>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="text-muted small">No file available</span>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    unitIndex++;
+                }
+            </div>
+        </div>
+    }
+</div>
+
+<!-- 📌 Preview Modal -->
+<div class="modal fade" id="filePreviewModal" tabindex="-1" aria-labelledby="filePreviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="filePreviewLabel">Preview</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-0" id="filePreviewBody" style="min-height: 480px;">
+                <div class="text-muted p-3 text-center">Loading preview...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // 🔹 File Preview Logic (no changes)
+        $(document).on('click', '.view-file-link', function () {
+            const filePath = $(this).data('filepath');
+            const title = $(this).data('title') || 'Preview';
+            const ext = filePath.split('.').pop().toLowerCase();
+
+            $('#filePreviewLabel').text(title);
+            let content = '';
+
+            if (!filePath) {
+                content = `<div class="text-danger p-3 text-center">No file found for preview.</div>`;
+            }
+            else if (filePath.includes("youtu")) {
+                const match = filePath.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
+                const videoId = match ? match[1] : null;
+                content = videoId
+                    ? `<iframe width="100%" height="500" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`
+                    : `<p class="text-danger">Invalid YouTube link.</p>`;
+            }
+            else if (['mp4', 'webm', 'ogg'].includes(ext)) {
+                content = `<video width="100%" height="500" controls autoplay id="previewVideo">
+                               <source src="${filePath}" type="video/${ext}">
+                               Your browser does not support the video tag.
+                           </video>`;
+            }
+            else if (['pdf'].includes(ext)) {
+                content = `<iframe src="${filePath}" width="100%" height="600px" style="border:none;"></iframe>`;
+            }
+            else if (['jpg', 'jpeg', 'png', 'gif', 'bmp', 'webp'].includes(ext)) {
+                content = `<img src="${filePath}" class="img-fluid d-block mx-auto" alt="${title}" />`;
+            }
+            else {
+                const encodedUrl = encodeURIComponent(filePath);
+                content = `<iframe src="https://docs.google.com/gview?url=${encodedUrl}&embedded=true"
+                                  width="100%" height="600px" style="border:none;"></iframe>`;
+            }
+
+            $('#filePreviewBody').html(content);
+            new bootstrap.Modal(document.getElementById('filePreviewModal')).show();
+        });
+
+        // ✅ Stop media when modal closes
+        document.getElementById('filePreviewModal').addEventListener('hidden.bs.modal', function () {
+            const body = document.getElementById('filePreviewBody');
+            const video = body.querySelector('video');
+            const iframe = body.querySelector('iframe');
+
+            if (video) {
+                video.pause();
+                video.currentTime = 0;
+            }
+            if (iframe) {
+                iframe.src = iframe.src; // reload to stop playback
+            }
+        });
+    </script>
+}

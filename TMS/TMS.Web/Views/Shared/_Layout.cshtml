@@ -1,0 +1,256 @@
+﻿@inject Microsoft.Extensions.Options.IOptions<TMS.ViewModels.StorageSettings> myOptions
+@{
+    TMS.ViewModels.StorageSettings _storageSettings = myOptions.Value;
+    string? logo = User?.Claims?.Where(t => t.Type == "logourl").FirstOrDefault()?.Value;
+    if (!string.IsNullOrWhiteSpace(logo))
+        logo = $"{_storageSettings.StorageUrl}/{_storageSettings.ContainerName}/{logo}";
+
+    string? company = User?.Claims?.Where(t => t.Type == "brandingname").FirstOrDefault()?.Value;
+    if (string.IsNullOrWhiteSpace(company))
+        company = "LMS";
+}
+<!DOCTYPE html>
+<html lang="en" class="loading white-layout" data-textdirection="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
+    <title>@ViewData["Title"] - @company</title>
+    <meta name="description" content="@company">
+    <!-- BEGIN: Icon -->
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">-->
+    <!-- END: Icon -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.14/css/bootstrap-multiselect.css" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/lib/datatables/datatables.bootstrap5.min.css" rel="stylesheet" asp-append-version="true" />
+
+   
+
+
+
+
+
+    <link href="~/app-assets/bootstrap-toaster/bootstrap-toaster.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/owlcarousel.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/style.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TMS.Web.styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("extracss", required: false)
+</head>
+<body>
+    <!-- loader starts-->
+    <div class="loader-wrapper topLoader">
+        <div class="loader-index"> <span></span></div>
+        <svg>
+            <defs></defs>
+            <filter id="goo">
+                <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+                <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+            </filter>
+        </svg>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i class="fa-solid fa-chevron-up"></i></div>
+    <!-- tap on tap ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+        <!-- Page Header Start-->
+        <div class="page-header">
+            <div class="header-wrapper row m-0">
+                <div class="header-logo-wrapper col-auto p-0">
+                    <div class="logo-wrapper ">
+                        <a asp-area="" asp-controller="Home" asp-action="Index">
+                            @if (string.IsNullOrEmpty(logo))
+                            {
+                                <img src="~/images/Logo.jpg" alt="@company" class="companyLogo" />
+                            }
+                            else
+                            {
+                                <img src="@logo" alt="@company" class="companyLogo" />
+                            }
+                        </a>
+                    </div>
+                    <div class="toggle-sidebar"><i class="fa-solid fa-bars"></i></div>
+                </div>
+                <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+                    <h4>@ViewData["Title"]</h4>
+                    <p class="m-b-0 opacity-60">Welcome @User?.Claims?.Where(t=>t.Type=="userName").FirstOrDefault()?.Value!</p>
+                </div>
+                <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+                    <ul class="nav-menus">
+                        <li>
+                            <div class="notification-box">
+                                <a href="#">
+                                    <img src="~/images/notification.svg" alt="img" />
+                                </a>
+                                <span class="badge rounded-circle">0</span>
+                            </div>
+                        </li>
+                        <li class="profile-nav py-0">
+                            <div class="media profile-media">
+                                @*<img class="rounded-circle img-40 profile" src="~/images/profile.svg" alt="">
+                                <img class="profile-icon" src="~/images/profile-arrow-down.svg" alt="">*@
+                                <div class="media-body mt-1">
+                                    <span class="line-height-10">@User?.Claims?.Where(t=>t.Type=="userName").FirstOrDefault()?.Value</span>
+                                    <p class="mb-0 text-danger">@User?.Claims?.Where(t=>t.Type=="role").FirstOrDefault()?.Value</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="onhover-dropdown">
+                            <img src="~/images/Icon-dots-vertical.svg" alt="img" />
+                            <ul class="profile-dropdown onhover-show-div">
+                                <li>
+                                    <a href="#" class="aLogout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket me-2"></i><span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header Ends-->
+        <!-- Page Body Start-->
+        <div class="page-body-wrapper">
+            <!-- Page Sidebar Start-->
+            <div class="sidebar-wrapper">
+                <div>
+                    <div class="logo-wrapper ">
+                        <a asp-area="" asp-controller="Home" asp-action="Index">
+                            <img class="img-fluid h-90p" src="~/images/Logo.jpg" alt="logo" />
+                        </a>
+                        <div class="back-btn pointer"><img src="~/images/back.svg" alt="img" /></div>
+                    </div>
+                    @{
+                        string? role = User?.Claims?.FirstOrDefault(c => c.Type == "role")?.Value;
+                    }
+
+                    @if (!string.IsNullOrEmpty(role) && role.ToLower() == "student" )
+                    {
+                        <partial name="_StudentMenu" />
+                    }
+                    else
+                    {
+                        <partial name="_MenuPartial" />
+                    }
+                    <partial name="_MenuPartial" />
+                </div>
+                <footer class="footer text-center">
+                    <p class="mb-0 font-9 line-height-11"><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a></p>
+                    <p class="mb-1 font-9 line-height-11">Terms & Conditions</p>
+                    <p class="mb-0 font-9 line-height-11">&copy; 2023 - @company.</p>
+                    <form asp-area="" asp-controller="Auth" asp-action="LogOff" id="frmLogout"></form>
+                </footer>
+            </div>
+            <!-- Page Sidebar Ends-->
+            <div class="page-body">
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <section>
+                        @RenderBody()
+                    </section>
+                </div>
+                <!-- Container-fluid Ends-->
+            </div>
+        </div>
+    </div>
+    <!-- page-wrapper End-->
+
+    <div class="appMessage">
+        @{
+            var appResult = TempData.Get<AppResultViewModel>("AppResult");
+        }
+        @if (appResult != null)
+        {
+            if (appResult.Status)
+            {
+                <div class="toast toast-basic position-fixed success" role="alert" aria-live="assertive" aria-atomic="true" data-delay="10000" style="top: 1rem; right: 1rem">
+                    <div class="toast-header">
+                        <strong class="mr-auto">Success</strong>
+                        <button type="button" class="ml-1 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body">@appResult.Message</div>
+                </div>
+            }
+            else
+            {
+                <div class="toast toast-basic position-fixed error" role="alert" aria-live="assertive" aria-atomic="true" data-delay="10000" style="top: 1rem; right: 1rem">
+                    <div class="toast-header">
+                        <strong class="mr-auto">Alert</strong>
+                        <button type="button" class="ml-1 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body text-danger bg-white">@appResult.Message</div>
+                </div>
+            }
+        }
+    </div>
+
+    
+    <!-- Modal Start-->
+  <div class="modal fade" id="divGlobalModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 pb-0">
+        <div class="modal-header p-3 pb-0">
+        <h5 class="modal-title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+        </div>
+         <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="btnGlobalModal">Save</button>
+        <button type="button" class="btn btn-danger RejectBtnGlobal" id="RejectBtnGlobalModal">Reject Nomination</button>
+        <button type="button" class="btn btn-primary ApproveBtnGlobal" id="ApproveBtnGlobalModal">Approve</button>
+        <button type="button" id="submitNominationBtn" class="btn btn-primary submitBtn ">Nominate</button>
+        <button type="button" id="WithdrawlBtn" class="btn btn-primary rejectBtn ">Withdraw Nomination</button>
+        <button type="button" id="submitBtn" class="btn btn-primary submitBtn" >Submit</button>
+        <button type="button" id="rejectBtn" class="btn btn-primary rejectBtn" >Reject</button>
+        <button type="button" id="cancelBtn" class="btn btn-primary cancelBtn">Cancel</button>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="loader-wrapper">
+        <div class="loader-index"> <span></span></div>
+        <svg>
+            <defs></defs>
+            <filter id="goo">
+                <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+                <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+            </filter>
+        </svg>
+    </div>
+  <!-- Modal End-->
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <script src="~/app-assets/bootstrap-toaster/bootstrap-toaster.min.js" asp-append-version="true"></script>
+    <script src="~/lib/datatables/jquery.datatables.min.js" asp-append-version="true"></script>
+    <script src="~/lib/datatables/datatables.bootstrap5.min.js" asp-append-version="true"></script>
+
+    <script src="~/js/owl.carousel.js" asp-append-version="true"></script>
+    <script src="~/js/owl-custom.js" asp-append-version="true"></script>
+    <script src="~/js/sidebar-menu.js" asp-append-version="true"></script>
+    <script src="~/js/simplebar.js" asp-append-version="true"></script>
+    <script src="~/js/script.js" asp-append-version="true"></script>
+    <script src="~/js/app.util.js" asp-append-version="true"></script>
+    <script src="~/js/app.util.modal.js" asp-append-version="true"></script>
+    <script src="@Url.Action("Global","LinkScript",new {area=""})" asp-append-version="true"></script>
+    <script src="~/js/Global.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

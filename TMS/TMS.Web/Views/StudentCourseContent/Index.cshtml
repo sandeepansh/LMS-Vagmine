@@ -1,0 +1,119 @@
+﻿@model TMS.ViewModels.Academics.StudentCourseCategoryViewModel
+
+@{
+    ViewData["Title"] = "My Courses";
+}
+
+ 
+    <!-- 🔹 Header Section -->
+    <div style="background:#f8f9ff; border-radius:10px; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin-bottom:20px;">
+        <h3 style="color:#004aad; font-weight:700;">@Model.CategoryName</h3>
+        <p style="color:#555; font-size:15px;">@Model.CategoryDescription</p>
+    </div>
+
+    <!-- 🔹 Semester-wise Grids -->
+    @foreach (var sem in Model.Semesters)
+    {
+        <div style="margin-bottom:25px;">
+            <h5 style="font-weight:600; color:#004aad;">Semester @sem.Semester</h5>
+            <table style="width:100%; border-collapse:collapse; margin-top:10px; background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+                <thead style="background:#f2f6ff;">
+                    <tr style="text-align:left; color:#333;">
+                        <th style="padding:10px;">#</th>
+                        <th style="padding:10px;">Course Name</th>
+                        <th style="padding:10px;">Course Code</th>
+                        @* <th style="padding:10px;">Credit</th> *@
+                        <th style="padding:10px; text-align:center;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int idx = 1;
+                        foreach (var course in sem.Courses)
+                        {
+                            <tr style="border-bottom:1px solid #eee;">
+                                <td style="padding:10px;">@idx</td>
+                                <td style="padding:10px;">@course.CourseName</td>
+                                <td style="padding:10px;">@course.CourseCode</td>
+                                <td>
+                                    <!-- Add this Details button -->
+                                    <a asp-action="Details" asp-route-courseId="@course.CourseId" asp-route-semesterId="@sem.Semester"
+                                       class="btn btn-outline-primary btn-sm">
+                                        View Details
+                                    </a>
+
+                                </td>
+                            </tr>
+                            idx++;
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+
+    <!-- 🔹 Quadrant Material Section -->
+    <div id="quadrantSection" style="display:none; margin-top:30px;">
+        <h5 id="selectedCourseTitle" style="font-weight:600; color:#004aad; margin-bottom:15px;"></h5>
+
+        <ul class="nav nav-tabs" id="quadrantTabs" role="tablist" style="margin-bottom:15px;">
+            @if (Model.Quadrants.Any())
+            {
+                bool first = true;
+                foreach (var q in Model.Quadrants)
+                {
+                    <li class="nav-item">
+                        <button class="nav-link @(first ? "active" : "") quadrant-tab"
+                                data-quadrant="@q.QuadrantNumber"
+                                style="border:none; background:none; color:@(first ? "#004aad" : "#777"); font-weight:600;">
+                            @q.Name
+                        </button>
+                    </li>
+                    first = false;
+                }
+            }
+            else
+            {
+                <li class="nav-item text-muted p-2">No quadrants available</li>
+            }
+        </ul>
+
+        <div id="quadrantContent" style="padding:15px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+            <div class="alert alert-info">Select a course to view materials.</div>
+        </div>
+    </div>
+ 
+
+@section Scripts {
+    <script>
+        let selectedCourseId = 0;
+
+        $(document).on("click", ".view-course", function () {
+            selectedCourseId = $(this).data("course-id");
+            const title = $(this).closest("tr").find("td:nth-child(2)").text();
+            $("#selectedCourseTitle").text(title);
+            $("#quadrantSection").show();
+            loadQuadrantContent(selectedCourseId, $("#quadrantTabs .nav-link.active").data("quadrant"));
+        });
+
+        $(document).on("click", ".quadrant-tab", function () {
+            $(".quadrant-tab").css("color", "#777").removeClass("active");
+            $(this).css("color", "#004aad").addClass("active");
+            const quadrantId = $(this).data("quadrant");
+            loadQuadrantContent(selectedCourseId, quadrantId);
+        });
+
+        function loadQuadrantContent(courseId, quadrantId) {
+            $("#quadrantContent").html("<div class='alert alert-info'>Loading materials...</div>");
+            $.get("@Url.Action("QuadrantContent", "StudentCourseContent")",
+                { courseId, quadrantId },
+                function (materials) {
+                    if (!materials || materials.trim() === "") {
+                        $("#quadrantContent").html("<div class='alert alert-warning'>No materials found for this quadrant.</div>");
+                        return;
+                    }
+                    $("#quadrantContent").html(materials);
+                });
+        }
+    </script>
+}

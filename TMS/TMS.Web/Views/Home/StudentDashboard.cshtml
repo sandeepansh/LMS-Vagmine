@@ -1,0 +1,86 @@
+﻿@model TMS.ViewModels.StudentDashboardViewModel
+@{
+    ViewData["Title"] = "Student Dashboard";
+}
+
+<div style="padding: 20px;">
+    <h4 style="font-weight: 600; margin-bottom: 20px;">
+        👋 Welcome, @Model.StudentName
+    </h4>
+
+    <!-- Today's Highlights -->
+    <div>
+        <h5 style="font-weight: 600; color: #333;">
+            <i class="bi bi-calendar3-week"></i> Today's Highlights
+        </h5>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 280px; background: #fff; border-left: 5px solid #2563eb; border-radius: 12px; padding: 20px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+                <h6><i class="bi bi-calendar-event"></i> Today's Exams</h6>
+                <p style="color: #666;">@DateTime.Now.ToString("dd MMM yyyy")</p>
+                @if (Model.TodayExams.Any())
+                {
+                    <ul>
+                        @foreach (var exam in Model.TodayExams)
+                        {
+                            <li>@exam</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p><strong>No exams scheduled.</strong></p>
+                    <p style="font-size: 13px; color: #888;">Use your free time wisely — a perfect opportunity to prepare for your upcoming exams.</p>
+                }
+            </div>
+
+            <div style="flex: 1; min-width: 280px; background: #fff; border-left: 5px solid #10b981; border-radius: 12px; padding: 20px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+                <h6><i class="bi bi-camera-video"></i> Today's Virtual Classes</h6>
+                <p style="color: #666;">@DateTime.Now.ToString("dd MMM yyyy")</p>
+                @if (Model.TodayVirtualClasses.Any())
+                {
+                    <ul>
+                        @foreach (var cls in Model.TodayVirtualClasses)
+                        {
+                            <li>@cls</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p><strong>No Virtual Classes Today</strong></p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <!-- Dashboard Stats -->
+    <div>
+        <h5 style="font-weight: 600; color: #333;">
+            <i class="bi bi-bar-chart"></i> Dashboard
+        </h5>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <div style="flex: 1; min-width: 220px; background: linear-gradient(135deg, #3b82f6, #6366f1); color: #fff; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+                <h6><i class="bi bi-book"></i> Total Courses</h6>
+                <h2>@Model.TotalCourses</h2>
+            </div>
+
+            <div style="flex: 1; min-width: 220px; background: linear-gradient(135deg, #10b981, #059669); color: #fff; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+                <h6><i class="bi bi-journal-check"></i> Exams</h6>
+                <h2>@Model.TotalExams</h2>
+            </div>
+
+            <div style="flex: 1; min-width: 220px; background: linear-gradient(135deg, #8b5cf6, #7c3aed); color: #fff; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+                <h6><i class="bi bi-award"></i> Results</h6>
+                <h2>@Model.TotalResults</h2>
+            </div>
+
+            <div style="flex: 1; min-width: 220px; background: linear-gradient(135deg, #f59e0b, #f97316); color: #fff; border-radius: 12px; padding: 20px; text-align: center; box-shadow: 0 3px 8px rgba(0,0,0,0.1);">
+                <h6><i class="bi bi-bar-chart-line"></i> % Passing Rate</h6>
+                <h2>@Model.PassingRate%</h2>
+            </div>
+        </div>
+    </div>
+</div>

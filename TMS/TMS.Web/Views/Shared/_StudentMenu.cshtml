@@ -1,0 +1,190 @@
+﻿@* Student Sidebar Menu (Scoped styles - safe from layout interference) *@
+
+<div class="student-menu-container">
+    <nav class="student-sidebar">
+        <ul>
+            <li class="menu-title">Online Learning Platform</li>
+
+            <li>
+                <a asp-controller="Home" asp-action="StudentDashboard">
+                    <i class="fa-solid fa-house"></i> Dashboard
+                </a>
+            </li>
+
+            <li class="menu-section">
+                <div class="menu-title">Learn</div>
+
+            <li>
+                @* <a asp-controller="Syllabus" asp-action="Index"> *@
+                <a href="https://www.jagannathuniversity.org/blogs/mba-finance-syllabus-subjects-guide" target="_blank">
+                    <i class="fa-solid fa-book-open"></i> Syllabus
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Calendar" asp-action="Index">
+                    <i class="fa-solid fa-calendar-days"></i> Class Calendar
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="StudentCourseContent" asp-action="Index">
+                    <i class="fa-solid fa-layer-group"></i> Courses
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="VirtualClassroom" asp-action="Index">
+                    <i class="fa-solid fa-chalkboard-user"></i> Virtual Classroom
+                </a>
+            </li>
+            </li>
+
+            <li class="menu-section">
+                <div class="menu-title">Collaborate & Communication</div>
+
+            <li>
+                <a asp-controller="Notifications" asp-action="Index">
+                    <i class="fa-solid fa-bell"></i> Notification & Inbox
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Discussion" asp-action="Index">
+                    <i class="fa-solid fa-comments"></i> Discussion Forum
+                </a>
+            </li>
+
+            <li>
+               @*  <a asp-controller="Wiki" asp-action="Index"> *@
+                <a href="https://en.wikipedia-on-ipfs.org/wiki/Jagan_Nath_University%2C_Jaipur" target="_blank">
+                    <i class="fa-solid fa-book"></i> Wiki
+                </a>
+            </li>
+
+            <li>
+                <a href="https://swayam.gov.in/" target="_blank">
+                    <i class="fa-solid fa-graduation-cap"></i> Swayam
+                </a>
+            </li>
+
+            <li>
+                <a href="https://books.google.com/" target="_blank">
+                    <i class="fa-brands fa-google"></i> Google
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.microsoft.com/en-in/" target="_blank">
+                    <i class="fa-brands fa-microsoft"></i> Microsoft
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Chat" asp-action="Index">
+                    <i class="fa-solid fa-user-group"></i> Chat & Meeting
+                </a>
+            </li>
+
+            <li>
+                <a asp-controller="Discussion" asp-action="Index">
+                    <i class="fa-solid fa-blog"></i> Blog
+                </a>
+            </li>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<style>
+    /* Scoped to .student-menu-container to prevent leaking styles globally */
+    .student-menu-container .student-sidebar {
+        width: auto;
+        background: #fff;
+        border-right: 1px solid #e5e5e5;
+        height: 80vh;
+        padding-top: 10px;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #c5c5c5 #f9f9f9;
+    }
+
+        .student-menu-container .student-sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .student-menu-container .student-sidebar::-webkit-scrollbar-track {
+            background: #f9f9f9;
+        }
+
+        .student-menu-container .student-sidebar::-webkit-scrollbar-thumb {
+            background-color: #c5c5c5;
+            border-radius: 10px;
+        }
+
+        .student-menu-container .student-sidebar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .student-menu-container .student-sidebar li {
+            margin-bottom: 4px;
+        }
+
+        .student-menu-container .student-sidebar a {
+            display: flex;
+            align-items: center;
+            padding: 8px 14px;
+            text-decoration: none;
+            color: #333 !important;
+            border-radius: 6px;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .student-menu-container .student-sidebar a i {
+                width: 20px;
+                text-align: center;
+                margin-right: 10px;
+                font-size: 15px;
+                color: #007bff;
+            }
+
+            .student-menu-container .student-sidebar a:hover {
+                background: #f1f6ff;
+                color: #007bff !important;
+                transform: translateX(2px);
+            }
+
+            .student-menu-container .student-sidebar a.active {
+                background: #e8f0ff;
+                color: #007bff !important;
+                font-weight: 600;
+            }
+
+        .student-menu-container .student-sidebar .menu-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #999;
+            font-weight: 700;
+            margin: 16px 0 6px 14px;
+        }
+
+        .student-menu-container .student-sidebar .menu-section {
+            padding-top: 10px;
+            border-top: 1px solid #f0f0f0;
+            margin-top: 10px;
+        }
+</style>
+
+<script>
+    // Highlight active link only inside this component
+    document.querySelectorAll('.student-menu-container .student-sidebar a').forEach(link => {
+        if (link.href === window.location.href)
+            link.classList.add('active');
+    });
+</script>

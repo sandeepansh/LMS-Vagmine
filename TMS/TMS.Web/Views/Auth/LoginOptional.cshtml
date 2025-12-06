@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_layoutempty";
+}
+
+<section>
+    <div class="d-flex justify-content-center align-items-center" style="min-height:55vh; background: linear-gradient(90deg, #5ca9fb 0%, #637efd 100%); border-radius:2rem 2rem 0 0;">
+        <div class="container">
+            <div class="row g-4 justify-content-center py-5">
+                <!-- Student Login -->
+                <div class="col-12 col-md-4">
+                    <a asp-controller="Auth" asp-action="Login" class="text-decoration-none">
+                        <div class="text-center bg-white shadow rounded-4 p-4 h-100 position-relative" style="transition:box-shadow .15s; cursor:pointer;">
+                            <div class="mb-3">
+                                <img src="https://img.icons8.com/ios-filled/96/5ca9fb/graduation-cap.png" alt="Student Login" width="72" height="72" />
+                            </div>
+                            <div style="font-family:Jost,sans-serif;" class="fs-3 mb-2 fw-bold text-primary-emphasis">Student Login</div>
+                            <div class="text-secondary fs-5">Log in to access your courses and academic resources</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Faculty Login -->
+                <div class="col-12 col-md-4">
+                    <a asp-controller="Auth" asp-action="Login" class="text-decoration-none">
+                        <div class="text-center bg-white shadow rounded-4 p-4 h-100 position-relative" style="transition:box-shadow .15s; cursor:pointer;">
+                            <div class="mb-3">
+                                <img src="https://img.icons8.com/ios-filled/100/637efd/classroom.png" alt="Faculty Login" width="72" height="72" />
+                            </div>
+                            <div style="font-family:Jost,sans-serif;" class="fs-3 mb-2 fw-bold text-primary-emphasis">Faculty Login</div>
+                            <div class="text-secondary fs-5">Log in to manage classes, evaluate students, and track progress</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Admin Login -->
+                <div class="col-12 col-md-4">
+                    <a asp-controller="Auth" asp-action="Login" class="text-decoration-none">
+                        <div class="text-center bg-white shadow rounded-4 p-4 h-100 position-relative" style="transition:box-shadow .15s; cursor:pointer;">
+                            <div class="mb-3">
+                                <img src="https://img.icons8.com/ios-filled/96/5ca9fb/administrator-male.png" alt="Admin Login" width="72" height="72" />
+                            </div>
+                            <div style="font-family:Jost,sans-serif;" class="fs-3 mb-2 fw-bold text-primary-emphasis">Administrative Login</div>
+                            <div class="text-secondary fs-5">Enter the university’s admin panel for system and process management</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
